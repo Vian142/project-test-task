@@ -1,0 +1,30 @@
+.Wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-bottom: 16px;
+
+  padding: 0 10px;
+
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 8px 10px 8px 8px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.05);
+}
+
+.Text {
+  width: 100%;
+
+  font-family: "Tahoma", sans-serif;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.Delete {
+  background-color: #e6e9ec;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}

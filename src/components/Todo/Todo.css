@@ -1,0 +1,32 @@
+.App {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.Header {
+  margin: 0 0 50px;
+  width: 100%;
+  font-size: 32px;
+  font-family: sans-serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TaskInputWrapper {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+
+.List {
+  background-color: rgba(0, 0, 0, 0.05);
+
+  padding: 20px 8px;
+
+  border-radius: 8px;
+}

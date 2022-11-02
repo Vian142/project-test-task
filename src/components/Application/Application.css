@@ -1,0 +1,48 @@
+.App {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px 10px;
+}
+
+.Container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.Block {
+  max-width: 450px;
+
+  display: block;
+  padding: 30px 10px;
+  background-color: rgba(0, 0, 0, 0.02);
+
+  margin: 5px;
+}
+
+.Header {
+  margin: 0 0 50px;
+  width: 100%;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TaskInputWrapper {
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+
+  padding: 0 8px;
+}
+
+.List {
+  background-color: rgba(0, 0, 0, 0.05);
+
+  padding: 20px 8px;
+
+  border-radius: 8px;
+}
